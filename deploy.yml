@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: nginx:1.7.1
+          image: bharanidhar/webpage:latest
           ports:
             - containerPort: 80
